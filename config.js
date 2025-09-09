@@ -46,7 +46,7 @@ const portfolioConfig = {
             Olá! Sou um desenvolvedor apaixonado por criar soluções digitais inovadoras. 
             Com experiência em desenvolvimento web, busco sempre aprender novas tecnologias 
             e contribuir para projetos que fazem a diferença.
-        `, // no resumo, fale sobre você de uma forma que mostre quem você é e o que você faz
+        `, 
         
         // Suas principais qualidades/características
         qualidades: [
