@@ -161,25 +161,24 @@ function fillSkillsSection() {
     const skillsList = document.createElement('div');
     skillsList.className = 'skills__list grid';
     
-    // Adiciona cada habilidade
+    // Cria cada habilidade
     skills.forEach(skill => {
         const skillItem = document.createElement('div');
         skillItem.className = 'skills__data';
+        
         skillItem.innerHTML = `
-            <div class="skills__card">
-                <div class="skills__icon-wrapper">
-                    <i class="${skill.icone}" style="color: ${skill.cor};"></i>
-                </div>
-                <div class="skills__info">
-                    <h3 class="skills__name">${skill.nome}</h3>
-                    <div class="skills__experience-info">
-                        <span class="skills__experience-label">Experiência</span>
-                        <span class="skills__experience-time">${skill.experiencia}</span>
-                    </div>
-                    <span class="skills__level skills__level--${skill.nivel.toLowerCase().replace('ç', 'c').replace('á', 'a')}">${skill.nivel}</span>
-                </div>
+            <div class="skills__titles">
+                <h3 class="skills__name">
+                    <i class="${skill.icone}" style="color: ${skill.cor}"></i>
+                    ${skill.nome}
+                </h3>
+                <span class="skills__number">${skill.tempoExperiencia} de experiência</span>
+            </div>
+            <div class="skills__bar">
+                <span class="skills__percentage skills__level" data-level="${skill.nivel.toLowerCase()}">${skill.nivel}</span>
             </div>
         `;
+        
         skillsList.appendChild(skillItem);
     });
     

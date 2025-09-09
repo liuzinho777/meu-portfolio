@@ -61,15 +61,15 @@ const portfolioConfig = {
     // ===== SUAS HABILIDADES =====
     habilidades: [
         // Tecnologias que você domina
-        { nome: "HTML5", experiencia: "2 anos", nivel: "Avançado", icone: "fab fa-html5", cor: "#E34F26" },
-        { nome: "CSS3", experiencia: "2 anos", nivel: "Avançado", icone: "fab fa-css3-alt", cor: "#1572B6" },
-        { nome: "JavaScript", experiencia: "1.5 anos", nivel: "Intermediário", icone: "fab fa-js-square", cor: "#F7DF1E" },
-        { nome: "React", experiencia: "1 ano", nivel: "Intermediário", icone: "fab fa-react", cor: "#61DAFB" },
-        { nome: "Node.js", experiencia: "8 meses", nivel: "Iniciante", icone: "fab fa-node-js", cor: "#339933" },
-        { nome: "Git", experiencia: "1.5 anos", nivel: "Intermediário", icone: "fab fa-git-alt", cor: "#F05032" },
+        { nome: "HTML5", tempoExperiencia: "3 anos", nivel: "Avançado", icone: "fab fa-html5", cor: "#E34F26" },
+        { nome: "CSS3", tempoExperiencia: "2 anos", nivel: "Intermediário", icone: "fab fa-css3-alt", cor: "#1572B6" },
+        { nome: "JavaScript", tempoExperiencia: "2 anos", nivel: "Intermediário", icone: "fab fa-js-square", cor: "#F7DF1E" },
+        { nome: "React", tempoExperiencia: "1 ano", nivel: "Intermediário", icone: "fab fa-react", cor: "#61DAFB" },
+        { nome: "Node.js", tempoExperiencia: "8 meses", nivel: "Iniciante", icone: "fab fa-node-js", cor: "#339933" },
+        { nome: "Git", tempoExperiencia: "2 anos", nivel: "Intermediário", icone: "fab fa-git-alt", cor: "#F05032" },
         
         // Adicione mais habilidades copiando a estrutura acima
-        // { nome: "Python", experiencia: "6 meses", nivel: "Iniciante", icone: "fab fa-python", cor: "#3776AB" },
+        // { nome: "Python", tempoExperiencia: "6 meses", nivel: "Iniciante", icone: "fab fa-python", cor: "#3776AB" },
     ],
 
     // ===== SEUS PROJETOS =====
@@ -78,7 +78,7 @@ const portfolioConfig = {
             titulo: "Sistema de Gerenciamento",
             descricao: "Aplicação web para gerenciar tarefas e projetos com interface moderna e intuitiva.",
             imagem: "assets/images/foto_projeto1.png", // Coloque a imagem na pasta assets/images/
-            tecnologias: ["HTML", "CSS", "JavaScript", "Firebase"],
+            tecnologias: ["HTML", "CSS", "JavaScript", "LocalStorage"],
             linkDemo: "https://seusite.vercel.app", // Link para ver o projeto funcionando
             linkCodigo: "https://github.com/seuusuario/projeto1", // Link do GitHub
             destaque: true // true = aparece em destaque, false = projeto normal
