@@ -1,10 +1,25 @@
-# 🚀 Template de Portfólio Moderno
+# 🚀 Template de Portfólio Profissional - Semana Técnica Etec
 
-Um template de portfólio completo e responsivo para desenvolvedores, criado especialmente para fins educativos. Perfeito para aprender sobre desenvolvimento web e fazer seu primeiro deploy na Vercel!
+## 📚 Sobre o Evento
+
+Este projeto faz parte da **Semana Técnica da Etec de Taboão da Serra** que acontece nos dias **10/09/2025 e 11/09/2025**.
+
+A **Semana Técnica** é um evento anual que conecta os alunos ao universo da tecnologia e da inovação, trazendo palestras, oficinas práticas, maratonas e mostras de projetos. É uma oportunidade única para ampliar conhecimentos, desenvolver novas habilidades e trocar experiências com profissionais da área.
+
+## 🎯 Objetivo da Oficina
+
+**Aprenda a criar e organizar um portfólio profissional para exibir seus projetos, valorizar suas habilidades e se destacar no mercado de trabalho.**
+
+Nesta oficina você aprenderá:
+- ✅ Como fazer fork do projeto no GitHub
+- ✅ Personalizar seu portfólio com suas informações
+- ✅ Fazer deploy gratuito na Vercel
+- ✅ Organizar e apresentar seus projetos profissionalmente
+- ✅ Otimizar seu portfólio para recrutadores
 
 ## 📋 Sobre Este Template
 
-Este template foi desenvolvido com foco na **educação** e **simplicidade**. Ele permite que você:
+Este template foi desenvolvido com foco na **educação** e **aplicação prática**. Ele permite que você:
 
 - ✅ Personalize facilmente suas informações
 - ✅ Aprenda HTML, CSS e JavaScript na prática
@@ -236,6 +251,12 @@ Este projeto é livre para uso educacional e pessoal. Sinta-se à vontade para m
 
 ---
 
+## 👨‍💻 Desenvolvedor
+
+**Template desenvolvido por Henrique Rezende Chagas**
+
+Criado especialmente para a Semana Técnica da Etec de Taboão da Serra, com foco em ensinar os alunos a criarem portfólios profissionais de qualidade.
+
 **🎓 Criado para fins educativos - Bons estudos!**
 
-*Template desenvolvido com ❤️ para ajudar estudantes a criarem seus primeiros portfólios profissionais.*
+*Template desenvolvido com ❤️ para ajudar estudantes a criarem seus primeiros portfólios profissionais e se destacarem no mercado de trabalho.*
