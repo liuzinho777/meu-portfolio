@@ -691,12 +691,13 @@ img {
 
 /* ===== PROJETOS ===== */
 .work__container {
-  display: grid;
-  gap: 4rem;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  max-width: 1600px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  max-width: 1800px;
   margin: 0 auto;
-  padding: 0 3rem;
+  padding: 0 2rem;
+  justify-content: center;
 }
 
 .work__card {
@@ -712,6 +713,8 @@ img {
   backdrop-filter: blur(10px);
   display: flex;
   flex-direction: column;
+  width: 500px;
+  flex: 0 0 auto;
 }
 
 .work__card:hover {
