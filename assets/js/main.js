@@ -166,14 +166,17 @@ function fillSkillsSection() {
         const skillItem = document.createElement('div');
         skillItem.className = 'skills__data';
         skillItem.innerHTML = `
-            <div class="skills__titles">
-                <h3 class="skills__name">
-                    <i class="${skill.icone}" style="color: ${skill.cor}; margin-right: 0.5rem;"></i>
-                    ${skill.nome}
-                </h3>
-                <div class="skills__info">
-                    <span class="skills__experience">${skill.experiencia}</span>
-                    <span class="skills__level skills__level--${skill.nivel.toLowerCase()}">${skill.nivel}</span>
+            <div class="skills__content">
+                <div class="skills__name-section">
+                    <i class="${skill.icone}" style="color: ${skill.cor}; margin-right: 0.75rem; font-size: 1.5rem;"></i>
+                    <h3 class="skills__name">${skill.nome}</h3>
+                </div>
+                <div class="skills__details">
+                    <div class="skills__experience-wrapper">
+                        <span class="skills__label">Tempo de experiência:</span>
+                        <span class="skills__experience">${skill.experiencia}</span>
+                    </div>
+                    <span class="skills__level skills__level--${skill.nivel.toLowerCase().replace('ç', 'c').replace('á', 'a')}">${skill.nivel}</span>
                 </div>
             </div>
         `;

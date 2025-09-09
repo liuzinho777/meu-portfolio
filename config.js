@@ -78,7 +78,7 @@ const portfolioConfig = {
             titulo: "Sistema de Gerenciamento",
             descricao: "Aplicação web para gerenciar tarefas e projetos com interface moderna e intuitiva.",
             imagem: "assets/images/foto_projeto1.png", // Coloque a imagem na pasta assets/images/
-            tecnologias: ["HTML", "CSS", "JavaScript", "LocalStorage"],
+            tecnologias: ["HTML", "CSS", "JavaScript", "Firebase"],
             linkDemo: "https://seusite.vercel.app", // Link para ver o projeto funcionando
             linkCodigo: "https://github.com/seuusuario/projeto1", // Link do GitHub
             destaque: true // true = aparece em destaque, false = projeto normal
