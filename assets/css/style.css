@@ -930,15 +930,14 @@ img {
 
 .contact__input {
   width: 100%;
-  background-color: var(--input-color);
+  background-color: rgba(255, 255, 255, 0.05);
   color: var(--text-color);
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  border: none;
+  border: 1px solid var(--first-color-lighter);
   outline: none;
   padding: 0.75rem;
   border-radius: 0.5rem;
-  border: 2px solid var(--first-color-lighter);
   transition: all 0.3s ease;
 }
 
