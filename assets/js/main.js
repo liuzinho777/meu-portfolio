@@ -171,10 +171,10 @@ function fillSkillsSection() {
                     <i class="${skill.icone}" style="color: ${skill.cor}; margin-right: 0.5rem;"></i>
                     ${skill.nome}
                 </h3>
-                <span class="skills__number">${skill.nivel}%</span>
-            </div>
-            <div class="skills__bar">
-                <span class="skills__percentage" style="width: ${skill.nivel}%"></span>
+                <div class="skills__info">
+                    <span class="skills__experience">${skill.experiencia}</span>
+                    <span class="skills__level skills__level--${skill.nivel.toLowerCase()}">${skill.nivel}</span>
+                </div>
             </div>
         `;
         skillsList.appendChild(skillItem);

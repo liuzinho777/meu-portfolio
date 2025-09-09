@@ -61,15 +61,15 @@ const portfolioConfig = {
     // ===== SUAS HABILIDADES =====
     habilidades: [
         // Tecnologias que você domina
-        { nome: "HTML5", nivel: 90, icone: "fab fa-html5", cor: "#E34F26" },
-        { nome: "CSS3", nivel: 85, icone: "fab fa-css3-alt", cor: "#1572B6" },
-        { nome: "JavaScript", nivel: 80, icone: "fab fa-js-square", cor: "#F7DF1E" },
-        { nome: "React", nivel: 75, icone: "fab fa-react", cor: "#61DAFB" },
-        { nome: "Node.js", nivel: 70, icone: "fab fa-node-js", cor: "#339933" },
-        { nome: "Git", nivel: 85, icone: "fab fa-git-alt", cor: "#F05032" },
+        { nome: "HTML5", experiencia: "2 anos", nivel: "Avançado", icone: "fab fa-html5", cor: "#E34F26" },
+        { nome: "CSS3", experiencia: "2 anos", nivel: "Avançado", icone: "fab fa-css3-alt", cor: "#1572B6" },
+        { nome: "JavaScript", experiencia: "1.5 anos", nivel: "Intermediário", icone: "fab fa-js-square", cor: "#F7DF1E" },
+        { nome: "React", experiencia: "1 ano", nivel: "Intermediário", icone: "fab fa-react", cor: "#61DAFB" },
+        { nome: "Node.js", experiencia: "8 meses", nivel: "Iniciante", icone: "fab fa-node-js", cor: "#339933" },
+        { nome: "Git", experiencia: "1.5 anos", nivel: "Intermediário", icone: "fab fa-git-alt", cor: "#F05032" },
         
         // Adicione mais habilidades copiando a estrutura acima
-        // { nome: "Python", nivel: 65, icone: "fab fa-python", cor: "#3776AB" },
+        // { nome: "Python", experiencia: "6 meses", nivel: "Iniciante", icone: "fab fa-python", cor: "#3776AB" },
     ],
 
     // ===== SEUS PROJETOS =====
