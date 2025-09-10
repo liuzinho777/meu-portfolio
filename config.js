@@ -64,7 +64,7 @@ const portfolioConfig = {
         { nome: "React", tempoExperiencia: "1 ano", nivel: "Básico", icone: "fab fa-react", cor: "#61DAFB" },
         { nome: "Node.js", tempoExperiencia: "8 meses", nivel: "Iniciante", icone: "fab fa-node-js", cor: "#339933" },
         { nome: "Git", tempoExperiencia: "2 anos", nivel: "Intermediário", icone: "fab fa-git-alt", cor: "#F05032" },
-         { nome: "MySQL", tempoExperiencia: "1 anos", nivel: "Intermediário", icone: "fab fa-git-alt", cor: "#32f07bff" },
+         { nome: "MySQL", tempoExperiencia: "1 anos", nivel: "Intermediário", icone: "", cor: "#32f07bff" },
         // Adicione mais habilidades copiando a estrutura acima
         // { nome: "Python", tempoExperiencia: "6 meses", nivel: "Iniciante", icone: "fab fa-python", cor: "#3776AB" },
     ],
@@ -105,11 +105,11 @@ const portfolioConfig = {
     // ===== EXPERIÊNCIAS/TIMELINE =====
     experiencias: [
         {
-            periodo: "2024 - Presente",
-            cargo: "Desenvolvedor Frontend",
-            empresa: "Empresa Exemplo",
-            descricao: "Desenvolvimento de interfaces modernas e responsivas usando React e TypeScript.",
-            tipo: "trabalho" // "trabalho", "educacao", "projeto"
+            periodo: "2023 - Presente",
+            cargo: "Estudante",
+            empresa: "ETEC Taboão da Serra",
+            descricao: "Desenvolvimento de interfaces modernas e responsivas usando React, TypeScript, HTML5 e CSS.",
+            tipo: "Projeto escolares diversas" // "trabalho", "educacao", "projeto"
         },
         {
             periodo: "2023 - 2024",
@@ -131,10 +131,10 @@ const portfolioConfig = {
     configuracoes: {
         // Cores do tema (você pode alterar para personalizar)
         tema: {
-            corPrimaria: "#3498db",     // Azul
-            corSecundaria: "#2c3e50",  // Azul escuro
-            corDestaque: "#e74c3c",    // Vermelho
-            corTexto: "#333333",       // Cinza escuro
+            corPrimaria: "#db3434ff",     // Azul
+            corSecundaria: "#683939ff",  // Azul escuro
+            corDestaque: "#8b157bff",    // Vermelho
+            corTexto: "#368893ff",       // Cinza escuro
             corFundo: "#ffffff"        // Branco
         },
         
