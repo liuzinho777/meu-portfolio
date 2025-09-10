@@ -35,8 +35,8 @@ Este template foi desenvolvido com foco na **educação** e **aplicação práti
 
 ### Passo 2: Clone para Seu Computador
 ```bash
-git clone https://github.com/SEU-USUARIO/template-portfolio.git
-cd template-portfolio
+git clone https://github.com/SEU-USUARIO/oficinasEtec-portfolio.git
+cd oficinasEtec-portfolio
 ```
 
 ### Passo 3: Personalize Suas Informações
